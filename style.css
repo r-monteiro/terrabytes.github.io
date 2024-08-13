@@ -149,7 +149,7 @@ header nav.menu-desktop ul li a.selected {
 }
 
 .menu-mobile{
-    background-color: #042c5c;
+    background-color: #608251;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -509,6 +509,9 @@ footer .btn-social {
 
 
 @media screen and (max-width: 1020px){
+    header .btn-social {
+        display: none;
+    }
 
     /* CLASSES GERAIS */
     .flex{
